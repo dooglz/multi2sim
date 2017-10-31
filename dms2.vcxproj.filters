@@ -1,0 +1,3235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include=".">
+      <UniqueIdentifier>{8351806b-6ad0-4b94-9733-c590db153e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime">
+      <UniqueIdentifier>{7c98eb6e-f444-4219-b454-806d3fc7f1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\hsa">
+      <UniqueIdentifier>{a7154ff4-7134-4fb3-b99b-03f47ff61513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\opencl">
+      <UniqueIdentifier>{b2e1d78d-3105-462d-9410-b8ad09d0482a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\include">
+      <UniqueIdentifier>{46e59036-b7cf-445a-8b3a-41fcf60d5409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\include\CL">
+      <UniqueIdentifier>{53ec4859-e5a1-4370-ad0b-daaf0a9caf16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\include\GL">
+      <UniqueIdentifier>{2db85718-c274-41fb-92d4-d118a3534066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\cuda">
+      <UniqueIdentifier>{8483d282-29aa-4122-861c-7f472310e4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples">
+      <UniqueIdentifier>{772c8f09-93c5-4f32-aa4b-4d5e2ad98aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\hsa">
+      <UniqueIdentifier>{b8ff310d-ed36-4677-9ee2-3012b7f99790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\hsa\vector_copy">
+      <UniqueIdentifier>{95e8f4ea-38f1-47b1-b7eb-b4ac10b35bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\hsa\histogram">
+      <UniqueIdentifier>{b156b5cc-2b62-4f18-a4fe-50b0517e764f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\kepler">
+      <UniqueIdentifier>{ee612af9-f7ea-4b5d-afe0-ade221e84b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\kepler\vectorAdd">
+      <UniqueIdentifier>{2e6dfa6d-7533-4679-8edb-09b032b7e4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\southern-islands">
+      <UniqueIdentifier>{3bd702fb-6ede-4b7b-9dfe-80d42dec6908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\southern-islands\scripts">
+      <UniqueIdentifier>{7b210202-d126-40b3-9abc-8bee7c3192ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\southern-islands\7970">
+      <UniqueIdentifier>{c8d2baa2-e761-477d-ba67-721260fc1d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\southern-islands\7870">
+      <UniqueIdentifier>{a86f9b3d-d103-40d0-a905-aa73501c618b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\southern-islands\7770">
+      <UniqueIdentifier>{c8ab56bb-bb85-4d2a-ac41-c8f229af56db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\southern-islands\7850">
+      <UniqueIdentifier>{7cfd99e0-ed08-4e5d-943f-584c37fd7bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\mips">
+      <UniqueIdentifier>{7ec79733-3a10-4d1a-ae76-1198d9d107c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\fused">
+      <UniqueIdentifier>{a609e5f1-311a-4c43-8fcc-9faa31ed1941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\memory">
+      <UniqueIdentifier>{554562d3-1909-4aa3-9ad6-e3a696eb83d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\memory\example-5">
+      <UniqueIdentifier>{b608745d-5a4a-4cd6-af55-85f20584cef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\memory\example-3">
+      <UniqueIdentifier>{da7415ac-4e73-4747-80fb-5069ec5bb2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\memory\example-2">
+      <UniqueIdentifier>{d1483efc-26dc-46b8-8f1c-26db2b6ee508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\memory\example-4">
+      <UniqueIdentifier>{2243a03e-7566-4fa1-a9c8-67e08435f689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\memory\example-1">
+      <UniqueIdentifier>{6727c290-5604-4e42-8c9e-7e0b401cbec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\x86">
+      <UniqueIdentifier>{bc413917-051d-4768-9e42-f54c9e0b5623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\x86\example-3">
+      <UniqueIdentifier>{e44ec247-7b1c-4b23-a160-229104293fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\x86\example-2">
+      <UniqueIdentifier>{8c253d0f-c78a-4444-ad55-4bd0f3589571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\x86\example-4">
+      <UniqueIdentifier>{7f9e0e2a-1938-4528-af2c-585562e580de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\x86\example-1">
+      <UniqueIdentifier>{481374f3-d080-448a-94fe-06fb812c5bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\arm">
+      <UniqueIdentifier>{f1889b93-9466-4eda-bcc9-c4ad18dd0f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network">
+      <UniqueIdentifier>{aa558549-0ad8-49fa-8557-b32ea307c835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-5">
+      <UniqueIdentifier>{ffa6fdba-0853-47c6-abbf-b755efbe23f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\scripts">
+      <UniqueIdentifier>{b1cf0514-47d0-43eb-8581-662241eb55d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-3">
+      <UniqueIdentifier>{4743fd9f-3d60-4a88-a53c-8eaa58ba1778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-8">
+      <UniqueIdentifier>{0adcc76e-8807-4f08-bede-1fbb0087376b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-13">
+      <UniqueIdentifier>{eecd1c63-c1f0-4a8a-bca6-b0fe7672ff84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-2">
+      <UniqueIdentifier>{8f9c71a4-d38d-47bb-9b17-a71bd3d6fec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-14">
+      <UniqueIdentifier>{f4f77e5c-d813-417f-9347-6fc7f09964a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-6">
+      <UniqueIdentifier>{c687b4c4-acbd-485c-8461-5c3bc3c5b574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-15">
+      <UniqueIdentifier>{179c60e8-d83b-4563-a684-f023a9007556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-11">
+      <UniqueIdentifier>{857756a4-e859-4caa-8663-c27e7105ab0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-12">
+      <UniqueIdentifier>{307cc070-7465-4394-9bc1-9f0f4b274ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-4">
+      <UniqueIdentifier>{452db9c0-15e4-4449-93af-cb4f652741a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-7">
+      <UniqueIdentifier>{4855b3fc-02f2-498a-9ce0-e4042638f5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-1">
+      <UniqueIdentifier>{79f7b0f2-9552-4235-861b-a4f9ebb001a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-10">
+      <UniqueIdentifier>{2ab0111f-962b-4821-9448-effe188c746f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samples\network\example-9">
+      <UniqueIdentifier>{aa64029e-4d64-4553-98a5-aaaa3b896355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{7897f8f4-3ecf-48d1-9fa7-5acbf15d375e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src">
+      <UniqueIdentifier>{8ca491ea-8258-406a-b482-cb0031e856c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\arch">
+      <UniqueIdentifier>{a5973714-2ae1-473f-a827-bc6af06c61c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\arch\southern-islands">
+      <UniqueIdentifier>{289f98b3-6d2f-48f9-a14c-648b50c72121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\arch\southern-islands\emu">
+      <UniqueIdentifier>{d952ab90-80e9-465d-85b8-24a524bf29f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\arch\southern-islands\timing">
+      <UniqueIdentifier>{7ede160b-9448-4a6e-a23b-cd067c7b4697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\arch\x86">
+      <UniqueIdentifier>{d6db4d27-ff25-4cd3-a3ad-7c2aa7b778ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\arch\x86\timing">
+      <UniqueIdentifier>{feb877ce-cab3-4c8d-9bb2-9e76c173fc46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\memory">
+      <UniqueIdentifier>{ae4adb4d-5a3d-45f8-87a7-d07846e22566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\dram">
+      <UniqueIdentifier>{bf60424e-815a-4c20-98a0-6e85dfaa29a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\lib">
+      <UniqueIdentifier>{5be70e58-ac6c-4654-a067-4b0b27fc92dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\lib\esim">
+      <UniqueIdentifier>{7801281a-119e-4439-b4d0-10fabd549539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\src\network">
+      <UniqueIdentifier>{b9065311-c170-4f19-9ddf-6e2bb1a0abef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{09dbee38-2bd7-4aa1-b925-c04a9c5427f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{0723942e-225e-4788-81de-ee67a2204594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4e27f5f5-ab23-478e-a510-adfc06317cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch">
+      <UniqueIdentifier>{113773d5-025f-462b-84b5-1b6beebcabfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\hsa">
+      <UniqueIdentifier>{e9d2981f-4397-4202-8401-ce437e9438bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\hsa\emulator">
+      <UniqueIdentifier>{35f95ee1-d6ef-47a6-bcb9-33c9bc01a81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\hsa\disassembler">
+      <UniqueIdentifier>{2e75d109-814d-4e12-bd06-420dd1ca208f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\hsa\driver">
+      <UniqueIdentifier>{3cef200c-843e-4b28-b619-1a48e3da7ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\kepler">
+      <UniqueIdentifier>{d5bef82d-db46-43ab-bbe9-d7c9544e2e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\kepler\emulator">
+      <UniqueIdentifier>{01dc919f-d177-4d23-90a3-f111e8ae7164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\kepler\disassembler">
+      <UniqueIdentifier>{9bc522da-3c69-46c1-beca-ed8847690e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\kepler\driver">
+      <UniqueIdentifier>{6a7eafb8-e2b5-4c38-ad44-b3a0b2b0bcf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\southern-islands">
+      <UniqueIdentifier>{8ea907c8-8422-47fe-a4be-53033ee0ee94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\southern-islands\emulator">
+      <UniqueIdentifier>{7fdacda9-705e-41a2-8716-70b0ecfe2179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\southern-islands\disassembler">
+      <UniqueIdentifier>{2eb61cc5-4145-4be0-943e-77809945241c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\southern-islands\driver">
+      <UniqueIdentifier>{b1955979-aa4c-44a3-b7f8-8906970af6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\southern-islands\timing">
+      <UniqueIdentifier>{708c2055-ada6-4833-a01d-286ff5ee458a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\mips">
+      <UniqueIdentifier>{6b22cd18-80d6-4e65-a948-f80776ef5447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\mips\emulator">
+      <UniqueIdentifier>{6af732ab-4a58-4ec7-8d91-01c4e4ae7dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\mips\disassembler">
+      <UniqueIdentifier>{4ca5af86-c835-4dd4-8bfc-b9cb06b8b528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\mips\timing">
+      <UniqueIdentifier>{081678a4-ca75-4454-8794-0648065e8af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\x86">
+      <UniqueIdentifier>{82e7ea73-eb5b-4c29-95e7-5b5eea7d493c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\x86\emulator">
+      <UniqueIdentifier>{80ce809a-301b-4691-a7e9-f28381155932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\x86\disassembler">
+      <UniqueIdentifier>{99c02aca-ba01-42df-a066-9c0b424493a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\x86\timing">
+      <UniqueIdentifier>{6e7bbc03-b71c-49c1-9378-ddaf2355caf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\common">
+      <UniqueIdentifier>{97805a80-8486-4f1b-810e-f6062806d0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\arm">
+      <UniqueIdentifier>{b2146c65-1bf4-4c2a-92b6-70e2ff1f088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\arm\emulator">
+      <UniqueIdentifier>{87111907-00ac-4a33-a7e9-ebcee838db62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\arm\disassembler">
+      <UniqueIdentifier>{44eba386-9e2e-4dae-9a83-e34c046c93b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch\arm\timing">
+      <UniqueIdentifier>{24d54962-39d4-4cbd-a08e-2c6a292b63d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{179883f3-7ddc-4e95-8bd7-75848b8591dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dram">
+      <UniqueIdentifier>{dea72a8f-bac8-4c0b-a908-56dfb7b7fd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\visual">
+      <UniqueIdentifier>{ff569c80-d2a1-4391-959a-538c9840f8b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\visual\southern-islands">
+      <UniqueIdentifier>{8d5d4159-4b96-4ad7-b0c3-303f8d9ad4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\visual\memory">
+      <UniqueIdentifier>{36172e14-c186-4cb1-9848-4f826f936785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\visual\x86">
+      <UniqueIdentifier>{1277735e-b3f3-46ba-8d43-6be22fbf9af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\visual\evergreen">
+      <UniqueIdentifier>{52532bd6-1898-406a-9335-d38f84b484f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\visual\common">
+      <UniqueIdentifier>{ace2d9d5-2a3f-4617-b836-c9da754633e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\visual\network">
+      <UniqueIdentifier>{4108e0bb-36b3-4673-a173-c2196850b28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib">
+      <UniqueIdentifier>{588a9898-6e4b-442b-8bb4-34ff7dfa5362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\cpp">
+      <UniqueIdentifier>{37b259b4-beb5-4e49-b7ae-218db7a6689c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\util">
+      <UniqueIdentifier>{c9cb5391-2503-4a08-9f3a-dafe39af2952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\mhandle">
+      <UniqueIdentifier>{1a677bfa-8a76-4d02-8d5c-e51bb8260d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\esim">
+      <UniqueIdentifier>{ccaeb901-daac-428b-bf33-7fd9daab5182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\gtest">
+      <UniqueIdentifier>{4635a46e-7dd9-48c6-9db7-c3c608ed1179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\gtest\include">
+      <UniqueIdentifier>{6b10982c-c460-46d3-bc64-df653b618d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\gtest\include\gtest">
+      <UniqueIdentifier>{f48813df-3b0c-4563-b09a-112f85892e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\gtest\include\gtest\internal">
+      <UniqueIdentifier>{7530a756-d644-4e82-b15f-cce5776c93e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\gtest\src">
+      <UniqueIdentifier>{ce8a7002-0805-4efa-844d-9b46c1556b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\network">
+      <UniqueIdentifier>{669b7da5-c8d5-4a1a-8aff-cb57f62a4482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docker">
+      <UniqueIdentifier>{6f9ee9dc-d7a5-493d-9d21-fd9213227e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docker\release">
+      <UniqueIdentifier>{782638fe-cdbc-4e3f-bbb6-7a515d65d99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docker\build-env">
+      <UniqueIdentifier>{dca291f7-5eab-459b-89f3-88ee612959ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docker\debug">
+      <UniqueIdentifier>{40c8125e-8958-48b2-979a-d7ed320ecec7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="runtime\hsa\Makefile.am">
+      <Filter>runtime\hsa</Filter>
+    </None>
+    <None Include="runtime\opencl\x86-device-wi.s">
+      <Filter>runtime\opencl</Filter>
+    </None>
+    <None Include="runtime\opencl\Makefile.am">
+      <Filter>runtime\opencl</Filter>
+    </None>
+    <None Include="runtime\include\Makefile.am">
+      <Filter>runtime\include</Filter>
+    </None>
+    <None Include="runtime\cuda\Makefile.am">
+      <Filter>runtime\cuda</Filter>
+    </None>
+    <None Include="runtime\Makefile.am">
+      <Filter>runtime</Filter>
+    </None>
+    <None Include="samples\hsa\vector_copy\loader.debug">
+      <Filter>samples\hsa\vector_copy</Filter>
+    </None>
+    <None Include="samples\hsa\vector_copy\vector_copy.brig">
+      <Filter>samples\hsa\vector_copy</Filter>
+    </None>
+    <None Include="samples\hsa\vector_copy\Makefile">
+      <Filter>samples\hsa\vector_copy</Filter>
+    </None>
+    <None Include="samples\hsa\vector_copy\vector_copy">
+      <Filter>samples\hsa\vector_copy</Filter>
+    </None>
+    <None Include="samples\hsa\vector_copy\vector_copy.cl">
+      <Filter>samples\hsa\vector_copy</Filter>
+    </None>
+    <None Include="samples\hsa\histogram\kernels.cl">
+      <Filter>samples\hsa\histogram</Filter>
+    </None>
+    <None Include="samples\hsa\histogram\hist_benchmark.cc">
+      <Filter>samples\hsa\histogram</Filter>
+    </None>
+    <None Include="samples\hsa\histogram\isa.debug">
+      <Filter>samples\hsa\histogram</Filter>
+    </None>
+    <None Include="samples\hsa\histogram\hist">
+      <Filter>samples\hsa\histogram</Filter>
+    </None>
+    <None Include="samples\hsa\histogram\kernels.hsail">
+      <Filter>samples\hsa\histogram</Filter>
+    </None>
+    <None Include="samples\hsa\histogram\main.cc">
+      <Filter>samples\hsa\histogram</Filter>
+    </None>
+    <None Include="samples\kepler\vectorAdd\vector_add.cubin">
+      <Filter>samples\kepler\vectorAdd</Filter>
+    </None>
+    <None Include="samples\kepler\vectorAdd\vectorAdd">
+      <Filter>samples\kepler\vectorAdd</Filter>
+    </None>
+    <None Include="samples\kepler\vectorAdd\vector_add.cu">
+      <Filter>samples\kepler\vectorAdd</Filter>
+    </None>
+    <None Include="samples\southern-islands\scripts\si_ideal_config_maker.sh">
+      <Filter>samples\southern-islands\scripts</Filter>
+    </None>
+    <None Include="samples\southern-islands\scripts\README">
+      <Filter>samples\southern-islands\scripts</Filter>
+    </None>
+    <None Include="samples\southern-islands\7970\mem-config">
+      <Filter>samples\southern-islands\7970</Filter>
+    </None>
+    <None Include="samples\southern-islands\7970\mem-config-unified-L1s">
+      <Filter>samples\southern-islands\7970</Filter>
+    </None>
+    <None Include="samples\southern-islands\7970\si-config">
+      <Filter>samples\southern-islands\7970</Filter>
+    </None>
+    <None Include="samples\southern-islands\7870\mem-config">
+      <Filter>samples\southern-islands\7870</Filter>
+    </None>
+    <None Include="samples\southern-islands\7870\si-config">
+      <Filter>samples\southern-islands\7870</Filter>
+    </None>
+    <None Include="samples\southern-islands\7770\mem-config">
+      <Filter>samples\southern-islands\7770</Filter>
+    </None>
+    <None Include="samples\southern-islands\7770\si-config">
+      <Filter>samples\southern-islands\7770</Filter>
+    </None>
+    <None Include="samples\southern-islands\7850\mem-config">
+      <Filter>samples\southern-islands\7850</Filter>
+    </None>
+    <None Include="samples\southern-islands\7850\si-config">
+      <Filter>samples\southern-islands\7850</Filter>
+    </None>
+    <None Include="samples\mips\test-sort">
+      <Filter>samples\mips</Filter>
+    </None>
+    <None Include="samples\mips\test-args">
+      <Filter>samples\mips</Filter>
+    </None>
+    <None Include="samples\fused\x86-config">
+      <Filter>samples\fused</Filter>
+    </None>
+    <None Include="samples\fused\mem-config">
+      <Filter>samples\fused</Filter>
+    </None>
+    <None Include="samples\fused\si-config">
+      <Filter>samples\fused</Filter>
+    </None>
+    <None Include="samples\fused\net-config">
+      <Filter>samples\fused</Filter>
+    </None>
+    <None Include="samples\memory\example-5\README">
+      <Filter>samples\memory\example-5</Filter>
+    </None>
+    <None Include="samples\memory\example-5\x86-config">
+      <Filter>samples\memory\example-5</Filter>
+    </None>
+    <None Include="samples\memory\example-5\mem-config">
+      <Filter>samples\memory\example-5</Filter>
+    </None>
+    <None Include="samples\memory\example-5\si-config">
+      <Filter>samples\memory\example-5</Filter>
+    </None>
+    <None Include="samples\memory\example-3\README">
+      <Filter>samples\memory\example-3</Filter>
+    </None>
+    <None Include="samples\memory\example-3\x86-config">
+      <Filter>samples\memory\example-3</Filter>
+    </None>
+    <None Include="samples\memory\example-3\mem-config">
+      <Filter>samples\memory\example-3</Filter>
+    </None>
+    <None Include="samples\memory\example-3\net-config">
+      <Filter>samples\memory\example-3</Filter>
+    </None>
+    <None Include="samples\memory\example-2\README">
+      <Filter>samples\memory\example-2</Filter>
+    </None>
+    <None Include="samples\memory\example-2\x86-config">
+      <Filter>samples\memory\example-2</Filter>
+    </None>
+    <None Include="samples\memory\example-2\mem-config">
+      <Filter>samples\memory\example-2</Filter>
+    </None>
+    <None Include="samples\memory\example-2\net-config">
+      <Filter>samples\memory\example-2</Filter>
+    </None>
+    <None Include="samples\memory\example-4\README">
+      <Filter>samples\memory\example-4</Filter>
+    </None>
+    <None Include="samples\memory\example-4\x86-config">
+      <Filter>samples\memory\example-4</Filter>
+    </None>
+    <None Include="samples\memory\example-4\mem-config">
+      <Filter>samples\memory\example-4</Filter>
+    </None>
+    <None Include="samples\memory\example-4\evg-config">
+      <Filter>samples\memory\example-4</Filter>
+    </None>
+    <None Include="samples\memory\example-1\README">
+      <Filter>samples\memory\example-1</Filter>
+    </None>
+    <None Include="samples\memory\example-1\x86-config">
+      <Filter>samples\memory\example-1</Filter>
+    </None>
+    <None Include="samples\memory\example-1\mem-config">
+      <Filter>samples\memory\example-1</Filter>
+    </None>
+    <None Include="samples\x86\example-3\README">
+      <Filter>samples\x86\example-3</Filter>
+    </None>
+    <None Include="samples\x86\example-3\x86-config.ini">
+      <Filter>samples\x86\example-3</Filter>
+    </None>
+    <None Include="samples\x86\example-3\test-sort">
+      <Filter>samples\x86\example-3</Filter>
+    </None>
+    <None Include="samples\x86\example-3\test-args">
+      <Filter>samples\x86\example-3</Filter>
+    </None>
+    <None Include="samples\x86\example-3\ctx-config.ini">
+      <Filter>samples\x86\example-3</Filter>
+    </None>
+    <None Include="samples\x86\example-2\README">
+      <Filter>samples\x86\example-2</Filter>
+    </None>
+    <None Include="samples\x86\example-2\x86-config.ini">
+      <Filter>samples\x86\example-2</Filter>
+    </None>
+    <None Include="samples\x86\example-2\test-sort">
+      <Filter>samples\x86\example-2</Filter>
+    </None>
+    <None Include="samples\x86\example-2\ctx-config.ini">
+      <Filter>samples\x86\example-2</Filter>
+    </None>
+    <None Include="samples\x86\example-4\test-threads">
+      <Filter>samples\x86\example-4</Filter>
+    </None>
+    <None Include="samples\x86\example-4\README">
+      <Filter>samples\x86\example-4</Filter>
+    </None>
+    <None Include="samples\x86\example-4\x86-config.ini">
+      <Filter>samples\x86\example-4</Filter>
+    </None>
+    <None Include="samples\x86\example-4\ctx-config.ini">
+      <Filter>samples\x86\example-4</Filter>
+    </None>
+    <None Include="samples\x86\example-1\README">
+      <Filter>samples\x86\example-1</Filter>
+    </None>
+    <None Include="samples\x86\example-1\x86-config.ini">
+      <Filter>samples\x86\example-1</Filter>
+    </None>
+    <None Include="samples\x86\example-1\test-args">
+      <Filter>samples\x86\example-1</Filter>
+    </None>
+    <None Include="samples\x86\example-1\ctx-config.ini">
+      <Filter>samples\x86\example-1</Filter>
+    </None>
+    <None Include="samples\arm\test-sort">
+      <Filter>samples\arm</Filter>
+    </None>
+    <None Include="samples\arm\test-args">
+      <Filter>samples\arm</Filter>
+    </None>
+    <None Include="samples\network\example-5\net-config.ini">
+      <Filter>samples\network\example-5</Filter>
+    </None>
+    <None Include="samples\network\example-5\README">
+      <Filter>samples\network\example-5</Filter>
+    </None>
+    <None Include="samples\network\scripts\si-default_crossbar.sh">
+      <Filter>samples\network\scripts</Filter>
+    </None>
+    <None Include="samples\network\scripts\si-ideal.sh">
+      <Filter>samples\network\scripts</Filter>
+    </None>
+    <None Include="samples\network\scripts\mesh_maker-full.sh">
+      <Filter>samples\network\scripts</Filter>
+    </None>
+    <None Include="samples\network\scripts\mesh_maker-X_Y-Routing.sh">
+      <Filter>samples\network\scripts</Filter>
+    </None>
+    <None Include="samples\network\scripts\si-bus-ideal.sh">
+      <Filter>samples\network\scripts</Filter>
+    </None>
+    <None Include="samples\network\scripts\torus_maker-full.sh">
+      <Filter>samples\network\scripts</Filter>
+    </None>
+    <None Include="samples\network\example-3\net-bus">
+      <Filter>samples\network\example-3</Filter>
+    </None>
+    <None Include="samples\network\example-3\README">
+      <Filter>samples\network\example-3</Filter>
+    </None>
+    <None Include="samples\network\example-8\Mesh-40-final.eps">
+      <Filter>samples\network\example-8</Filter>
+    </None>
+    <None Include="samples\network\example-8\README">
+      <Filter>samples\network\example-8</Filter>
+    </None>
+    <None Include="samples\network\example-8\si-config">
+      <Filter>samples\network\example-8</Filter>
+    </None>
+    <None Include="samples\network\example-8\net-mesh-si">
+      <Filter>samples\network\example-8</Filter>
+    </None>
+    <None Include="samples\network\example-8\mem-si">
+      <Filter>samples\network\example-8</Filter>
+    </None>
+    <None Include="samples\network\example-8\ctx-config">
+      <Filter>samples\network\example-8</Filter>
+    </None>
+    <None Include="samples\network\example-13\README">
+      <Filter>samples\network\example-13</Filter>
+    </None>
+    <None Include="samples\network\example-13\net-config">
+      <Filter>samples\network\example-13</Filter>
+    </None>
+    <None Include="samples\network\example-2\net-si">
+      <Filter>samples\network\example-2</Filter>
+    </None>
+    <None Include="samples\network\example-2\README">
+      <Filter>samples\network\example-2</Filter>
+    </None>
+    <None Include="samples\network\example-2\si-config">
+      <Filter>samples\network\example-2</Filter>
+    </None>
+    <None Include="samples\network\example-2\mem-si">
+      <Filter>samples\network\example-2</Filter>
+    </None>
+    <None Include="samples\network\example-2\ctx-config">
+      <Filter>samples\network\example-2</Filter>
+    </None>
+    <None Include="samples\network\example-14\net-config.ini">
+      <Filter>samples\network\example-14</Filter>
+    </None>
+    <None Include="samples\network\example-14\README">
+      <Filter>samples\network\example-14</Filter>
+    </None>
+    <None Include="samples\network\example-6\net-mesh-routing">
+      <Filter>samples\network\example-6</Filter>
+    </None>
+    <None Include="samples\network\example-6\README">
+      <Filter>samples\network\example-6</Filter>
+    </None>
+    <None Include="samples\network\example-15\README">
+      <Filter>samples\network\example-15</Filter>
+    </None>
+    <None Include="samples\network\example-15\si-config">
+      <Filter>samples\network\example-15</Filter>
+    </None>
+    <None Include="samples\network\example-15\mem-si">
+      <Filter>samples\network\example-15</Filter>
+    </None>
+    <None Include="samples\network\example-15\net-ideal">
+      <Filter>samples\network\example-15</Filter>
+    </None>
+    <None Include="samples\network\example-15\ctx-config">
+      <Filter>samples\network\example-15</Filter>
+    </None>
+    <None Include="samples\network\example-11\net-x86-40">
+      <Filter>samples\network\example-11</Filter>
+    </None>
+    <None Include="samples\network\example-11\README">
+      <Filter>samples\network\example-11</Filter>
+    </None>
+    <None Include="samples\network\example-11\mem-x86-40">
+      <Filter>samples\network\example-11</Filter>
+    </None>
+    <None Include="samples\network\example-11\x86-config-40">
+      <Filter>samples\network\example-11</Filter>
+    </None>
+    <None Include="samples\network\example-11\ctx-config">
+      <Filter>samples\network\example-11</Filter>
+    </None>
+    <None Include="samples\network\example-12\README">
+      <Filter>samples\network\example-12</Filter>
+    </None>
+    <None Include="samples\network\example-12\net-cycle.ini">
+      <Filter>samples\network\example-12</Filter>
+    </None>
+    <None Include="samples\network\example-4\README">
+      <Filter>samples\network\example-4</Filter>
+    </None>
+    <None Include="samples\network\example-4\net-mesh">
+      <Filter>samples\network\example-4</Filter>
+    </None>
+    <None Include="samples\network\example-7\net-torus">
+      <Filter>samples\network\example-7</Filter>
+    </None>
+    <None Include="samples\network\example-7\README">
+      <Filter>samples\network\example-7</Filter>
+    </None>
+    <None Include="samples\network\example-1\net-si">
+      <Filter>samples\network\example-1</Filter>
+    </None>
+    <None Include="samples\network\example-1\README">
+      <Filter>samples\network\example-1</Filter>
+    </None>
+    <None Include="samples\network\graphplot">
+      <Filter>samples\network</Filter>
+    </None>
+    <None Include="samples\network\example-10\net-si-44">
+      <Filter>samples\network\example-10</Filter>
+    </None>
+    <None Include="samples\network\example-10\mem-si-44">
+      <Filter>samples\network\example-10</Filter>
+    </None>
+    <None Include="samples\network\example-10\README">
+      <Filter>samples\network\example-10</Filter>
+    </None>
+    <None Include="samples\network\example-10\si-config-44">
+      <Filter>samples\network\example-10</Filter>
+    </None>
+    <None Include="samples\network\example-10\ctx-config">
+      <Filter>samples\network\example-10</Filter>
+    </None>
+    <None Include="samples\network\example-9\net-si-32">
+      <Filter>samples\network\example-9</Filter>
+    </None>
+    <None Include="samples\network\example-9\mem-si-32">
+      <Filter>samples\network\example-9</Filter>
+    </None>
+    <None Include="samples\network\example-9\README">
+      <Filter>samples\network\example-9</Filter>
+    </None>
+    <None Include="samples\network\example-9\si-config-32">
+      <Filter>samples\network\example-9</Filter>
+    </None>
+    <None Include="samples\network\example-9\ctx-config">
+      <Filter>samples\network\example-9</Filter>
+    </None>
+    <None Include="AUTHORS" />
+    <None Include="COPYING" />
+    <None Include="tests\src\arch\southern-islands\emu\TestISAVOP2.cc">
+      <Filter>tests\src\arch\southern-islands\emu</Filter>
+    </None>
+    <None Include="tests\src\arch\southern-islands\emu\TestISASOP2.cc">
+      <Filter>tests\src\arch\southern-islands\emu</Filter>
+    </None>
+    <None Include="tests\src\arch\southern-islands\emu\ObjectPool.cc">
+      <Filter>tests\src\arch\southern-islands\emu</Filter>
+    </None>
+    <None Include="tests\src\arch\southern-islands\timing\TestTiming.cc">
+      <Filter>tests\src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="tests\src\arch\x86\timing\TestBranchPredictor.cc">
+      <Filter>tests\src\arch\x86\timing</Filter>
+    </None>
+    <None Include="tests\src\arch\x86\timing\TestTraceCache.cc">
+      <Filter>tests\src\arch\x86\timing</Filter>
+    </None>
+    <None Include="tests\src\arch\x86\timing\TestRegisterFile.cc">
+      <Filter>tests\src\arch\x86\timing</Filter>
+    </None>
+    <None Include="tests\src\arch\x86\timing\TestFetch.cc">
+      <Filter>tests\src\arch\x86\timing</Filter>
+    </None>
+    <None Include="tests\src\arch\x86\timing\ObjectPool.cc">
+      <Filter>tests\src\arch\x86\timing</Filter>
+    </None>
+    <None Include="tests\src\arch\x86\timing\TestAlu.cc">
+      <Filter>tests\src\arch\x86\timing</Filter>
+    </None>
+    <None Include="tests\src\memory\TestSystemEvents.cc">
+      <Filter>tests\src\memory</Filter>
+    </None>
+    <None Include="tests\src\memory\TestModule.cc">
+      <Filter>tests\src\memory</Filter>
+    </None>
+    <None Include="tests\src\memory\TestSystemConfig.cc">
+      <Filter>tests\src\memory</Filter>
+    </None>
+    <None Include="tests\src\dram\TestDramConfig.cc">
+      <Filter>tests\src\dram</Filter>
+    </None>
+    <None Include="tests\src\dram\TestDramEvents.cc">
+      <Filter>tests\src\dram</Filter>
+    </None>
+    <None Include="tests\src\lib\esim\TestEngine.cc">
+      <Filter>tests\src\lib\esim</Filter>
+    </None>
+    <None Include="tests\src\network\TestNetworkEvents.cc">
+      <Filter>tests\src\network</Filter>
+    </None>
+    <None Include="tests\src\network\TestNetworkConfig.cc">
+      <Filter>tests\src\network</Filter>
+    </None>
+    <None Include="tests\Makefile.am">
+      <Filter>tests</Filter>
+    </None>
+    <None Include="TODO" />
+    <None Include="Doxyfile" />
+    <None Include="bin\m2s-visual.py">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="ChangeLog" />
+    <None Include="configure.ac" />
+    <None Include="NEWS" />
+    <None Include="README" />
+    <None Include="images\engines.odg">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\back-single.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\forward-triple.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\back-triple.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\go.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\forward-double.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\close-sel.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\back-double.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\forward-single.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\alu_engine.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\cf_engine.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\m2s-icon.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\tex_engine.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\close.png">
+      <Filter>images</Filter>
+    </None>
+    <None Include="images\m2s-icon.xcf">
+      <Filter>images</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\SubInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\SegmentManager.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\CvtInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\LdaInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\Function.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\Component.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\AtomicNoRetInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\CurrentWorkGroupSizeInstructionWorker_test.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\MulInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\WorkItemIdInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\BrInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\Variable.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\CbrInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\Signal.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\BarrierInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\WorkGroupIdInstructionWorker_test.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\OrInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\OperandValueWriter.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\LdInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\AddInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\WorkItemIdInstructionWorker_test.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\WorkGroup.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\OperandValueRetriever.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\MovInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\StackFrame.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\WorkItemAbsIdInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\RetInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\AQLPacket.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\AQLQueue.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\Emulator.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\WorkItemIsa.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\WorkItem.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\MadInstructionWorker_test.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\HsaInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\CmpInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\AndInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\StInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\ShlInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\GridSizeInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\MadInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\Makefile.am">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\Wavefront.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\MemFenceInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\WorkGroupIdInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\Grid.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\CurrentWorkGroupSizeInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\emulator\ShrInstructionWorker.cc">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\BrigImmed.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\BrigFile.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\BrigSection.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\AsmService.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\BrigCodeEntryDump.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\BrigCodeEntryGetter.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\Disassembler.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\BrigEntry.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\BrigDataEntry.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\BrigOperandEntry.cc">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\Instruction.def">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\disassembler\Makefile.am">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\Driver.cc">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\Driver.def">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\Signal.cc">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\DriverCall.cc">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\SignalManager.cc">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\HsaExecutableSymbol.cc">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\HsaProgram.cc">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\Makefile.am">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\SignalDestroyHandler.cc">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\driver\HsaExecutable.cc">
+      <Filter>src\arch\hsa\driver</Filter>
+    </None>
+    <None Include="src\arch\hsa\Makefile.am">
+      <Filter>src\arch\hsa</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\Warp.cc">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\ThreadBlock.cc">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\ThreadIsa.cc">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\Thread.cc">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\Emulator.cc">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\SyncStack.cc">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\Makefile.am">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\ReturnAddressStack.cc">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\Grid.cc">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\emulator\Warp.h.bakup">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </None>
+    <None Include="src\arch\kepler\disassembler\Instruction.cc">
+      <Filter>src\arch\kepler\disassembler</Filter>
+    </None>
+    <None Include="src\arch\kepler\disassembler\Disassembler.cc">
+      <Filter>src\arch\kepler\disassembler</Filter>
+    </None>
+    <None Include="src\arch\kepler\disassembler\Instruction.def">
+      <Filter>src\arch\kepler\disassembler</Filter>
+    </None>
+    <None Include="src\arch\kepler\disassembler\Makefile.am">
+      <Filter>src\arch\kepler\disassembler</Filter>
+    </None>
+    <None Include="src\arch\kepler\driver\Driver.cc">
+      <Filter>src\arch\kepler\driver</Filter>
+    </None>
+    <None Include="src\arch\kepler\driver\Function.cc">
+      <Filter>src\arch\kepler\driver</Filter>
+    </None>
+    <None Include="src\arch\kepler\driver\Driver.def">
+      <Filter>src\arch\kepler\driver</Filter>
+    </None>
+    <None Include="src\arch\kepler\driver\Argument.cc">
+      <Filter>src\arch\kepler\driver</Filter>
+    </None>
+    <None Include="src\arch\kepler\driver\DriverCall.cc">
+      <Filter>src\arch\kepler\driver</Filter>
+    </None>
+    <None Include="src\arch\kepler\driver\Module.cc">
+      <Filter>src\arch\kepler\driver</Filter>
+    </None>
+    <None Include="src\arch\kepler\driver\Makefile.am">
+      <Filter>src\arch\kepler\driver</Filter>
+    </None>
+    <None Include="src\arch\kepler\Makefile.am">
+      <Filter>src\arch\kepler</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\emulator\NDRange.cc">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\emulator\WorkGroup.cc">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\emulator\Emulator.cc">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\emulator\WorkItemIsa.cc">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\emulator\WorkItem.cc">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\emulator\Makefile.am">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\emulator\Wavefront.cc">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\disassembler\Binary.cc">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\disassembler\Argument.cc">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\disassembler\Instruction.cc">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\disassembler\Disassembler.cc">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\disassembler\Instruction.def">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\disassembler\Makefile.am">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\driver\Driver.cc">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\driver\Kernel.cc">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\driver\Driver.def">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\driver\Program.cc">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\driver\DriverCall.cc">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\driver\Makefile.am">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\Makefile.am">
+      <Filter>src\arch\southern-islands</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\LdsUnit.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\ExecutionUnit.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\ScalarUnit.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\VectorMemoryUnit.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\SimdUnit.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\BranchUnit.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\Gpu.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\FetchBuffer.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\Uop.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\Timing.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\ComputeUnit.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\Makefile.am">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\southern-islands\timing\WavefrontPool.cc">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\ContextIsa.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\ContextLoader.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\Signal.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\Context.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\ContextSignal.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\ContextSyscall.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\Emulator.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\ContextSyscall.def">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\File.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\Regs.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\Mem.cc">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\emulator\Makefile.am">
+      <Filter>src\arch\mips\emulator</Filter>
+    </None>
+    <None Include="src\arch\mips\disassembler\Instruction.cc">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </None>
+    <None Include="src\arch\mips\disassembler\Disassembler.cc">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </None>
+    <None Include="src\arch\mips\disassembler\Instruction.def">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </None>
+    <None Include="src\arch\mips\disassembler\Inst.cc">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </None>
+    <None Include="src\arch\mips\disassembler\Makefile.am">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </None>
+    <None Include="src\arch\mips\disassembler\Inst.def">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </None>
+    <None Include="src\arch\mips\Makefile.am">
+      <Filter>src\arch\mips</Filter>
+    </None>
+    <None Include="src\arch\mips\timing\Makefile.am">
+      <Filter>src\arch\mips\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaMisc.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaRot.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextUinst.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsa.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextLoader.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\XmmValue.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\Signal.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\Context.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextSignal.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaSse4.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\Uinst.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextSyscall.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaFp.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaSse3.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaXmm.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaSse.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaStd.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\Emulator.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextSyscall.def">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\Regs.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaStr.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\Makefile.am">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaCtrl.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\ContextIsaSse2.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\emulator\Extended.cc">
+      <Filter>src\arch\x86\emulator</Filter>
+    </None>
+    <None Include="src\arch\x86\disassembler\Instruction.cc">
+      <Filter>src\arch\x86\disassembler</Filter>
+    </None>
+    <None Include="src\arch\x86\disassembler\Disassembler.cc">
+      <Filter>src\arch\x86\disassembler</Filter>
+    </None>
+    <None Include="src\arch\x86\disassembler\Instruction.def">
+      <Filter>src\arch\x86\disassembler</Filter>
+    </None>
+    <None Include="src\arch\x86\disassembler\Makefile.am">
+      <Filter>src\arch\x86\disassembler</Filter>
+    </None>
+    <None Include="src\arch\x86\Makefile.am">
+      <Filter>src\arch\x86</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\RegisterFile.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\Alu.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\FunctionalUnit.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\Core.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\ThreadFetch.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\ThreadRecover.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\Uop.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\Thread.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\CpuScheduler.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\Timing.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\ThreadIssue.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\BranchPredictor.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\ThreadDecode.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\ThreadScheduler.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\Makefile.am">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\ThreadDispatch.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\ThreadCommit.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\TraceCache.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\x86\timing\Cpu.cc">
+      <Filter>src\arch\x86\timing</Filter>
+    </None>
+    <None Include="src\arch\common\Driver.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\Context.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\Runtime.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\Disassembler.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\Timing.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\Arch.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\Emulator.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\CallStack.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\Makefile.am">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\common\FileTable.cc">
+      <Filter>src\arch\common</Filter>
+    </None>
+    <None Include="src\arch\Makefile.am">
+      <Filter>src\arch</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\ContextIsaArm32.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\ContextIsa.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\ContextLoader.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\Context.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\ContextSignal.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\ContextSyscall.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\ContextIsaThumb16.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\Emulator.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\ContextSyscall.def">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\Regs.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\ContextIsaThumb32.cc">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\emulator\Makefile.am">
+      <Filter>src\arch\arm\emulator</Filter>
+    </None>
+    <None Include="src\arch\arm\disassembler\InstructionThumb32.def">
+      <Filter>src\arch\arm\disassembler</Filter>
+    </None>
+    <None Include="src\arch\arm\disassembler\Instruction.cc">
+      <Filter>src\arch\arm\disassembler</Filter>
+    </None>
+    <None Include="src\arch\arm\disassembler\Disassembler.cc">
+      <Filter>src\arch\arm\disassembler</Filter>
+    </None>
+    <None Include="src\arch\arm\disassembler\InstructionThumb.def">
+      <Filter>src\arch\arm\disassembler</Filter>
+    </None>
+    <None Include="src\arch\arm\disassembler\Instruction.def">
+      <Filter>src\arch\arm\disassembler</Filter>
+    </None>
+    <None Include="src\arch\arm\disassembler\Makefile.am">
+      <Filter>src\arch\arm\disassembler</Filter>
+    </None>
+    <None Include="src\arch\arm\Makefile.am">
+      <Filter>src\arch\arm</Filter>
+    </None>
+    <None Include="src\arch\arm\timing\Makefile.am">
+      <Filter>src\arch\arm\timing</Filter>
+    </None>
+    <None Include="src\m2s.cc">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\memory\Cache.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\SpecMem.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\SystemEvents.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\Directory.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\Frame.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\Manager.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\Module.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\Mmu.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\SystemConfig.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\Memory.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\System.cc">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\memory\Makefile.am">
+      <Filter>src\memory</Filter>
+    </None>
+    <None Include="src\dram\Channel.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Request.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\TimingParameters.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Controller.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Rank.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Bank.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Action.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Command.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\System.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Makefile.am">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Address.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\dram\Scheduler.cc">
+      <Filter>src\dram</Filter>
+    </None>
+    <None Include="src\visual\southern-islands\Makefile.am">
+      <Filter>src\visual\southern-islands</Filter>
+    </None>
+    <None Include="src\visual\memory\Makefile.am">
+      <Filter>src\visual\memory</Filter>
+    </None>
+    <None Include="src\visual\x86\Makefile.am">
+      <Filter>src\visual\x86</Filter>
+    </None>
+    <None Include="src\visual\evergreen\Makefile.am">
+      <Filter>src\visual\evergreen</Filter>
+    </None>
+    <None Include="src\visual\common\Makefile.am">
+      <Filter>src\visual\common</Filter>
+    </None>
+    <None Include="src\visual\Makefile.am">
+      <Filter>src\visual</Filter>
+    </None>
+    <None Include="src\visual\network\Makefile.am">
+      <Filter>src\visual\network</Filter>
+    </None>
+    <None Include="src\Makefile.am">
+      <Filter>src</Filter>
+    </None>
+    <None Include="src\lib\cpp\Graph.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\Environment.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\Misc.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\Debug.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\Timer.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\ELFWriter.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\OldList.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\IniFile.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\ELFReader.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\List.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\Bitmap.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\CommandLine.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\Terminal.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\Makefile.am">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\Error.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\cpp\String.cc">
+      <Filter>src\lib\cpp</Filter>
+    </None>
+    <None Include="src\lib\util\ChangeLog">
+      <Filter>src\lib\util</Filter>
+    </None>
+    <None Include="src\lib\util\Makefile.am">
+      <Filter>src\lib\util</Filter>
+    </None>
+    <None Include="src\lib\mhandle\Makefile.am">
+      <Filter>src\lib\mhandle</Filter>
+    </None>
+    <None Include="src\lib\esim\Engine.cc">
+      <Filter>src\lib\esim</Filter>
+    </None>
+    <None Include="src\lib\esim\Event.cc">
+      <Filter>src\lib\esim</Filter>
+    </None>
+    <None Include="src\lib\esim\Queue.cc">
+      <Filter>src\lib\esim</Filter>
+    </None>
+    <None Include="src\lib\esim\Frame.cc">
+      <Filter>src\lib\esim</Filter>
+    </None>
+    <None Include="src\lib\esim\FrequencyDomain.cc">
+      <Filter>src\lib\esim</Filter>
+    </None>
+    <None Include="src\lib\esim\Trace.cc">
+      <Filter>src\lib\esim</Filter>
+    </None>
+    <None Include="src\lib\esim\Makefile.am">
+      <Filter>src\lib\esim</Filter>
+    </None>
+    <None Include="src\lib\gtest\include\gtest\internal\gtest-tuple.h.pump">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </None>
+    <None Include="src\lib\gtest\include\gtest\internal\gtest-type-util.h.pump">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </None>
+    <None Include="src\lib\gtest\include\gtest\internal\gtest-param-util-generated.h.pump">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </None>
+    <None Include="src\lib\gtest\include\gtest\gtest-param-test.h.pump">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </None>
+    <None Include="src\lib\gtest\README">
+      <Filter>src\lib\gtest</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest-typed-test.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest-port.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest-printers.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest-test-part.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest-all.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest-filepath.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest-death-test.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\src\gtest_main.cc">
+      <Filter>src\lib\gtest\src</Filter>
+    </None>
+    <None Include="src\lib\gtest\Makefile.am">
+      <Filter>src\lib\gtest</Filter>
+    </None>
+    <None Include="src\lib\Makefile.am">
+      <Filter>src\lib</Filter>
+    </None>
+    <None Include="src\network\Graph.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\EndNode.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Network.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\SystemEvents.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Link.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Bus.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Packet.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Switch.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Message.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\SystemConfig.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\System.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Node.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Connection.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Makefile.am">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\RoutingTable.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="src\network\Buffer.cc">
+      <Filter>src\network</Filter>
+    </None>
+    <None Include="docker\release\Dockerfile">
+      <Filter>docker\release</Filter>
+    </None>
+    <None Include="docker\build-env\Dockerfile">
+      <Filter>docker\build-env</Filter>
+    </None>
+    <None Include="docker\debug\Dockerfile">
+      <Filter>docker\debug</Filter>
+    </None>
+    <None Include="Makefile.am" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="runtime\hsa\hsa_finalize.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa_region.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa_system.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\debug.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa_executable.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa_isa.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa_code_object.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa_signal.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa_agent.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\hsa\hsa_queue.c">
+      <Filter>runtime\hsa</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\platform.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\x86-kernel.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\mhandle.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\thread-list.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\debug.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\union-program.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\evg-program.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\union-kernel.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\sampler.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\mem.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\command.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\misc.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\x86-program.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\evg-kernel.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\event.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\context.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\si-kernel.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\si-program.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\object.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\list.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\evg-device.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\command-queue.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\union-device.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\si-device.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\kernel.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\opencl.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\program.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\elf-format.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\device.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\x86-device.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\opencl\string.c">
+      <Filter>runtime\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\function.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\api.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\mhandle.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\debug.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\memory.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\api-rt.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\stream.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\misc.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\event.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\context.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\module.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\function-arg.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\list.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\elf-format.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="runtime\cuda\device.c">
+      <Filter>runtime\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\hsa\vector_copy\vector_copy.c">
+      <Filter>samples\hsa\vector_copy</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\hsa\histogram\kernels.snackwrap.c">
+      <Filter>samples\hsa\histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\mips\test-args.c">
+      <Filter>samples\mips</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\mips\test-sort.c">
+      <Filter>samples\mips</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\x86\example-3\test-args.c">
+      <Filter>samples\x86\example-3</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\x86\example-3\test-sort.c">
+      <Filter>samples\x86\example-3</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\x86\example-2\test-sort.c">
+      <Filter>samples\x86\example-2</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\x86\example-4\test-threads.c">
+      <Filter>samples\x86\example-4</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\x86\example-1\test-args.c">
+      <Filter>samples\x86\example-1</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\arm\test-args.c">
+      <Filter>samples\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\arm\test-sort.c">
+      <Filter>samples\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\southern-islands\gpu.c">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\southern-islands\compute-unit.c">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\southern-islands\panel.c">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\southern-islands\inst.c">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\southern-islands\work-group.c">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\southern-islands\time-dia.c">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\memory\panel.c">
+      <Filter>src\visual\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\memory\mem-system.c">
+      <Filter>src\visual\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\memory\mod.c">
+      <Filter>src\visual\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\memory\mod-access.c">
+      <Filter>src\visual\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\memory\mod-widget.c">
+      <Filter>src\visual\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\x86\core.c">
+      <Filter>src\visual\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\x86\panel.c">
+      <Filter>src\visual\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\x86\inst.c">
+      <Filter>src\visual\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\x86\context.c">
+      <Filter>src\visual\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\x86\cpu.c">
+      <Filter>src\visual\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\x86\time-dia.c">
+      <Filter>src\visual\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\evergreen\gpu.c">
+      <Filter>src\visual\evergreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\evergreen\compute-unit.c">
+      <Filter>src\visual\evergreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\evergreen\panel.c">
+      <Filter>src\visual\evergreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\evergreen\inst.c">
+      <Filter>src\visual\evergreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\evergreen\work-group.c">
+      <Filter>src\visual\evergreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\evergreen\time-dia.c">
+      <Filter>src\visual\evergreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\common\visual.c">
+      <Filter>src\visual\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\common\popup.c">
+      <Filter>src\visual\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\common\led.c">
+      <Filter>src\visual\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\common\state.c">
+      <Filter>src\visual\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\common\list.c">
+      <Filter>src\visual\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\common\trace.c">
+      <Filter>src\visual\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\common\visual-missing.c">
+      <Filter>src\visual\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\common\cycle-bar.c">
+      <Filter>src\visual\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\node-widget.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\net-graph.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\net.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\node.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\panel.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\net-packet.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\link.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\buffer.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\net-widget.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\net-system.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visual\network\net-message.c">
+      <Filter>src\visual\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\bin-config.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\config.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\linked-list.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\debug.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\bit-map.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\file.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\repos.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\misc.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\elf-encode.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\hash-table.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\matrix.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\list.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\buffer.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\timer.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\graph.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\elf-format.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\heap.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\util\string.c">
+      <Filter>src\lib\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\mhandle\mhandle.c">
+      <Filter>src\lib\mhandle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="runtime\hsa\debug.h">
+      <Filter>runtime\hsa</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\hsa\hsa.h">
+      <Filter>runtime\hsa</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\debug.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\evg-device.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\platform.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\si-kernel.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\kernel.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\opencl.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\union-program.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\list.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\misc.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\elf-format.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\object.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\string.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\x86-device.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\thread-list.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\x86-program.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\union-kernel.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\context.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\sampler.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\program.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\evg-program.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\device.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\x86-kernel.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\mhandle.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\si-program.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\command.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\command-queue.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\evg-kernel.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\si-device.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\event.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\union-device.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\opencl\mem.h">
+      <Filter>runtime\opencl</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\hsa_ext_finalize.h">
+      <Filter>runtime\include</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\CL\cl.h">
+      <Filter>runtime\include\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\cuda_runtime.h">
+      <Filter>runtime\include</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\cuda.h">
+      <Filter>runtime\include</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\GL\gl.h">
+      <Filter>runtime\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\GL\glew.h">
+      <Filter>runtime\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\GL\glut.h">
+      <Filter>runtime\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\GL\glu.h">
+      <Filter>runtime\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\cuda_runtime_api.h">
+      <Filter>runtime\include</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\include\hsa.h">
+      <Filter>runtime\include</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\debug.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\stream.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\list.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\misc.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\elf-format.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\memory.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\api.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\function-arg.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\module.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\context.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\device.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\mhandle.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\function.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime\cuda\event.h">
+      <Filter>runtime\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="samples\hsa\histogram\hist_benchmark.h">
+      <Filter>samples\hsa\histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="samples\hsa\histogram\kernels.h">
+      <Filter>samples\hsa\histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="samples\hsa\histogram\kernels_brig.h">
+      <Filter>samples\hsa\histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\src\arch\southern-islands\emu\ObjectPool.h">
+      <Filter>tests\src\arch\southern-islands\emu</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\src\arch\x86\timing\ObjectPool.h">
+      <Filter>tests\src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\WorkItem.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\StackFrame.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\WorkItemAbsIdInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\LdInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\MulInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\MovInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\HsaInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\StInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\Emulator.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\BrInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\SubInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\MadInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\BarrierInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\CurrentWorkGroupSizeInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\CvtInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\ShrInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\GridSizeInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\WorkGroupIdInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\AQLQueue.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\Wavefront.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\CmpInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\WorkItemIdInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\OperandValueRetriever.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\AddInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\OrInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\RetInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\Grid.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\Component.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\MemFenceInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\Variable.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\OperandValueWriter.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\WorkGroup.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\AQLPacket.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\AndInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\AtomicNoRetInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\CbrInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\LdaInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\ShlInstructionWorker.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\SegmentManager.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\Signal.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\emulator\Function.h">
+      <Filter>src\arch\hsa\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\BrigEntry.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\BrigCodeEntry.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\BrigOperandEntry.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\BrigFile.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\BrigImmed.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\BrigDataEntry.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\Disassembler.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\AsmService.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\BrigSection.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\disassembler\Brig.h">
+      <Filter>src\arch\hsa\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\DriverCallHandler.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\HsaExecutableSymbol.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\Driver.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\SignalManager.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\SignalDestroyHandler.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\HsaExecutable.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\DriverCallbackInfo.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\HsaProgram.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\hsa\driver\Signal.h">
+      <Filter>src\arch\hsa\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\emulator\ThreadBlock.h">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\emulator\Register.h">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\emulator\ReturnAddressStack.h">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\emulator\Warp.h">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\emulator\Emulator.h">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\emulator\Grid.h">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\emulator\SyncStack.h">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\emulator\Thread.h">
+      <Filter>src\arch\kepler\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\disassembler\Instruction.h">
+      <Filter>src\arch\kepler\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\disassembler\Disassembler.h">
+      <Filter>src\arch\kepler\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\driver\Module.h">
+      <Filter>src\arch\kepler\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\driver\Driver.h">
+      <Filter>src\arch\kepler\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\driver\Argument.h">
+      <Filter>src\arch\kepler\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\kepler\driver\Function.h">
+      <Filter>src\arch\kepler\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\emulator\WorkItem.h">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\emulator\NDRange.h">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\emulator\Emulator.h">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\emulator\Wavefront.h">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\emulator\WorkGroup.h">
+      <Filter>src\arch\southern-islands\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\disassembler\Instruction.h">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\disassembler\Argument.h">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\disassembler\Disassembler.h">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\disassembler\Binary.h">
+      <Filter>src\arch\southern-islands\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\driver\Program.h">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\driver\Driver.h">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\driver\Kernel.h">
+      <Filter>src\arch\southern-islands\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\SimdUnit.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\Timing.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\ScalarUnit.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\WavefrontPool.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\LdsUnit.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\ComputeUnit.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\Uop.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\BranchUnit.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\FetchBuffer.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\VectorMemoryUnit.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\ExecutionUnit.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\southern-islands\timing\Gpu.h">
+      <Filter>src\arch\southern-islands\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\emulator\Regs.h">
+      <Filter>src\arch\mips\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\emulator\Emulator.h">
+      <Filter>src\arch\mips\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\emulator\File.h">
+      <Filter>src\arch\mips\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\emulator\Mem.h">
+      <Filter>src\arch\mips\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\emulator\Context.h">
+      <Filter>src\arch\mips\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\emulator\Signal.h">
+      <Filter>src\arch\mips\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\disassembler\Instruction.h">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\disassembler\Disassembler.h">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\mips\disassembler\Inst.h">
+      <Filter>src\arch\mips\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\emulator\XmmValue.h">
+      <Filter>src\arch\x86\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\emulator\Regs.h">
+      <Filter>src\arch\x86\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\emulator\Emulator.h">
+      <Filter>src\arch\x86\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\emulator\Extended.h">
+      <Filter>src\arch\x86\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\emulator\Uinst.h">
+      <Filter>src\arch\x86\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\emulator\Context.h">
+      <Filter>src\arch\x86\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\emulator\Signal.h">
+      <Filter>src\arch\x86\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\disassembler\Instruction.h">
+      <Filter>src\arch\x86\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\disassembler\Disassembler.h">
+      <Filter>src\arch\x86\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\Timing.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\Cpu.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\TraceCache.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\Uop.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\BranchPredictor.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\Core.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\RegisterFile.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\Thread.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\Alu.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\x86\timing\FunctionalUnit.h">
+      <Filter>src\arch\x86\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\Emulator.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\Driver.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\Timing.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\Disassembler.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\Runtime.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\Arch.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\FileTable.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\CallStack.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\common\Context.h">
+      <Filter>src\arch\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\arm\emulator\Regs.h">
+      <Filter>src\arch\arm\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\arm\emulator\Emulator.h">
+      <Filter>src\arch\arm\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\arm\emulator\Context.h">
+      <Filter>src\arch\arm\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\arm\emulator\Signal.h">
+      <Filter>src\arch\arm\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\arm\disassembler\Instruction.h">
+      <Filter>src\arch\arm\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\arm\disassembler\Disassembler.h">
+      <Filter>src\arch\arm\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Module.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Manager.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\System.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Directory.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Cache.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Memory.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\SpecMem.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Mmu.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\Frame.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Bank.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Action.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Rank.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Address.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\System.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Scheduler.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\TimingParameters.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Command.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Channel.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Request.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dram\Controller.h">
+      <Filter>src\dram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\southern-islands\inst.h">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\southern-islands\compute-unit.h">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\southern-islands\gpu.h">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\southern-islands\panel.h">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\southern-islands\time-dia.h">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\southern-islands\work-group.h">
+      <Filter>src\visual\southern-islands</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\memory\mod-widget.h">
+      <Filter>src\visual\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\memory\panel.h">
+      <Filter>src\visual\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\memory\mod-access.h">
+      <Filter>src\visual\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\memory\mod.h">
+      <Filter>src\visual\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\memory\mem-system.h">
+      <Filter>src\visual\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\x86\inst.h">
+      <Filter>src\visual\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\x86\panel.h">
+      <Filter>src\visual\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\x86\context.h">
+      <Filter>src\visual\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\x86\time-dia.h">
+      <Filter>src\visual\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\x86\cpu.h">
+      <Filter>src\visual\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\x86\core.h">
+      <Filter>src\visual\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\evergreen\inst.h">
+      <Filter>src\visual\evergreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\evergreen\compute-unit.h">
+      <Filter>src\visual\evergreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\evergreen\gpu.h">
+      <Filter>src\visual\evergreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\evergreen\panel.h">
+      <Filter>src\visual\evergreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\evergreen\time-dia.h">
+      <Filter>src\visual\evergreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\evergreen\work-group.h">
+      <Filter>src\visual\evergreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\common\trace.h">
+      <Filter>src\visual\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\common\popup.h">
+      <Filter>src\visual\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\common\list.h">
+      <Filter>src\visual\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\common\visual.h">
+      <Filter>src\visual\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\common\state.h">
+      <Filter>src\visual\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\common\led.h">
+      <Filter>src\visual\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\common\cycle-bar.h">
+      <Filter>src\visual\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\net-widget.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\node.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\net-graph.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\node-widget.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\net.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\panel.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\net-system.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\net-packet.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\buffer.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\link.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visual\network\net-message.h">
+      <Filter>src\visual\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\OldList.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\ELFWriter.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\Timer.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\Misc.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\Bitmap.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\List.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\Environment.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\Graph.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\Debug.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\ELFReader.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\IniFile.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\Error.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\CommandLine.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\Terminal.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\cpp\String.h">
+      <Filter>src\lib\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\debug.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\repos.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\elf-encode.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\list.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\misc.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\elf-format.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\hash-table.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\string.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\file.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\matrix.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\buffer.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\bin-config.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\bit-map.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\config.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\timer.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\graph.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\heap.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\util\linked-list.h">
+      <Filter>src\lib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\mhandle\mhandle.h">
+      <Filter>src\lib\mhandle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\esim\Engine.h">
+      <Filter>src\lib\esim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\esim\Queue.h">
+      <Filter>src\lib\esim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\esim\Trace.h">
+      <Filter>src\lib\esim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\esim\FrequencyDomain.h">
+      <Filter>src\lib\esim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\esim\Event.h">
+      <Filter>src\lib\esim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\esim\Frame.h">
+      <Filter>src\lib\esim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest_pred_impl.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest-spi.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-death-test-internal.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-type-util.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-internal.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-linked_ptr.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-filepath.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-param-util-generated.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-tuple.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-param-util.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-string.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\internal\gtest-port.h">
+      <Filter>src\lib\gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest-printers.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest-message.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest-param-test.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest-test-part.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest-death-test.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest_prod.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\include\gtest\gtest-typed-test.h">
+      <Filter>src\lib\gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gtest\src\gtest-internal-inl.h">
+      <Filter>src\lib\gtest\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Switch.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Buffer.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\EndNode.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Packet.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\System.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Message.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\RoutingTable.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Graph.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Link.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Connection.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Network.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Node.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Bus.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\Frame.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
